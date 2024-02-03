@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: bisque;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+}
+h1 a {
+  font-size: 30px;
+}
+nav a:hover {
+  color: red;
+}
+.list {
+  display: flex;
+  gap: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+.card {
+  margin: 20px 0;
+}
+.card a {
+  text-decoration: none;
+}
+
+.blog-form {
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid lightgreen;
+  padding: 40px;
+}
+
+.blog-form h1 {
+  color: green;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+.form-group label {
+  font-size: 18px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid green;
+}
+
+.blog-create-btn {
+  background-color: green;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+}
+.delete-btn {
+  background-color: red;
+  padding: 7px 10px;
+  font-size: 12px;
+  border-radius: 20px;
+  border: 1px solid red;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
